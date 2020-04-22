@@ -218,7 +218,7 @@
     <message>
         <location filename="../src/libcalamaresui/viewpages/QmlViewStep.cpp" line="97"/>
         <source>QML Step &lt;i&gt;%1&lt;/i&gt;.</source>
-        <translation type="unfinished">QML Шаг &lt;i&gt;%1&lt;/i&gt;.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/libcalamaresui/viewpages/QmlViewStep.cpp" line="261"/>
@@ -231,10 +231,10 @@
     <message numerus="yes">
         <location filename="../src/libcalamares/modulesystem/RequirementsChecker.cpp" line="164"/>
         <source>Waiting for %n module(s).</source>
-        <translation>
+        <translation type="unfinished">
             <numerusform>Ожидание %n модуля(ей).</numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+            <numerusform>Ожидание %n модуля(ей).</numerusform>
+            <numerusform>Ожидание %n модуля(ей).</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -242,8 +242,8 @@
         <source>(%n second(s))</source>
         <translation type="unfinished">
             <numerusform>(%n секунд(ы))</numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+            <numerusform>(%n секунд(ы))</numerusform>
+            <numerusform>(%n секунд(ы))</numerusform>
         </translation>
     </message>
     <message>
@@ -625,16 +625,18 @@ The installer will quit and all changes will be lost.</source>
     <message>
         <location filename="../src/modules/partition/gui/ChoicePage.cpp" line="1515"/>
         <source>Swap (no Hibernate)</source>
-        <translation type="unfinished">Подкачка (без Гибернации)</translation>
+        <translation type="unfinished">Swap (без Гибернации)</translation>
     </message>
     <message>
         <location filename="../src/modules/partition/gui/ChoicePage.cpp" line="1518"/>
         <source>Swap (with Hibernate)</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Как лучше Swap или раздел / файл подкачки ?</translatorcomment>
+        <translation type="unfinished">Swap (с Гибернацией)</translation>
     </message>
     <message>
         <location filename="../src/modules/partition/gui/ChoicePage.cpp" line="1521"/>
         <source>Swap to file</source>
+        <translatorcomment> Swap в файле лучше ?</translatorcomment>
         <translation type="unfinished">Файл подкачки</translation>
     </message>
 </context>
@@ -1414,7 +1416,7 @@ The installer will quit and all changes will be lost.</source>
     <message>
         <location filename="../src/modules/welcome/checker/GeneralRequirements.cpp" line="176"/>
         <source>has a screen large enough to show the whole installer</source>
-        <translation type="unfinished">экран достаточно большой, чтобы показать весь установщик</translation>
+        <translation type="unfinished">экран достаточно большой, чтобы показать установщик полностью</translation>
     </message>
     <message>
         <location filename="../src/modules/welcome/checker/GeneralRequirements.cpp" line="179"/>
@@ -3345,7 +3347,7 @@ Output:
     <message>
         <location filename="../src/modules/summary/SummaryViewStep.cpp" line="43"/>
         <source>Summary</source>
-        <translation>Итог</translation>
+        <translation type="unfinished">Список изменений</translation>
     </message>
 </context>
 <context>
@@ -3471,7 +3473,7 @@ Output:
     <message>
         <location filename="../src/modules/users/UsersPage.cpp" line="402"/>
         <source>Your username must start with a lowercase letter or underscore.</source>
-        <translation type="unfinished">Ваше имя пользователя должно начинаться со строчной буквы или подчеркивания.</translation>
+        <translation>Ваше имя пользователя должно начинаться со строчной буквы или подчеркивания.</translation>
     </message>
     <message>
         <location filename="../src/modules/users/UsersPage.cpp" line="409"/>
@@ -3512,7 +3514,7 @@ Output:
     <message>
         <location filename="../src/calamares/VariantModel.cpp" line="241"/>
         <source>Key</source>
-        <translation type="unfinished">Ключ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/calamares/VariantModel.cpp" line="245"/>
@@ -3764,7 +3766,8 @@ Output:
         <location filename="../src/modules/notesqml/notesqml.qml" line="61"/>
         <source>&lt;h3&gt;%1&lt;/h3&gt;
             &lt;p&gt;These are example release notes.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;%1&lt;/h3&gt;
+            &lt;p&gt;Это пример заметок о выпуске..&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -3777,8 +3780,8 @@ Output:
     <message>
         <location filename="../src/modules/welcomeq/welcomeq.qml" line="75"/>
         <source>About</source>
-        <translatorcomment>О (или об) дальше должно идти наименование (например название приложения) о котором будут выводиться сведения.</translatorcomment>
-        <translation type="unfinished">Информация</translation>
+        <translatorcomment>О (или об) дальше должны идти наименование (например название приложения) о котором будут выводиться сведения.</translatorcomment>
+        <translation type="unfinished">О</translation>
     </message>
     <message>
         <location filename="../src/modules/welcomeq/welcomeq.qml" line="89"/>
